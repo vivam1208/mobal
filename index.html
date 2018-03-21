@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!--声明文档的类型
+如果不写，则是混合模式。假设当前浏览器版本ie9，向前或者向下兼容
+即兼容ie8、ie7、ie6
+如果写了，则是标准模式。向后或者向上兼容，即兼容ie10、ie11-->
+<html lang="en">
+<!--告诉浏览器，文档的语言为英文-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!--html5标签兼容性和媒体查询兼容性处理-->
+    <!--[if lt ie9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <[end if]-->
+    <!--[if gt ie9]>
+    <style>
+        html{
+            display: none;
+        }
+    </style>
+    <[end if]-->
+    <!--lt 小于  lte  小于等于
+    gt 大于  gte  大于等于-->
+
+    <!--文档的编码支持中文-->
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--头部开始-->
+<header class="header">
+    <div class="width clearfix">
+        <!--logo start-->
+        <h1 class="logo pull-left"><a href=""><img src="img/logo.png" alt=""></a></h1>
+        <!--logo end-->
+
+        <!--tel start-->
+        <a class="tel pull-right" href="mailto://39005061@qq.com"><img src="img/tel.png" alt=""></a>
+        <!--tel end-->
+
+        <!--lang start-->
+        <div class="lang pull-right">
+            <a href="">English</a>
+            <a href="">中文</a>
+        </div>
+        <!--lang end-->
+
+        <!--nav start-->
+        <nav class="pull-right">
+            <ul class="nav clearfix">
+                <li class="p-relative pull-left">
+                    <a href="">产品</a>
+                    <div class="menu p-absolute">
+                        <ul>
+                            <li><a href="">智能化车队</a></li>
+                            <li><a href="">手机管车</a></li>
+                            <li><a href="">手机管车</a></li>
+                            <li><a href="">手机管车</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="p-relative pull-left">
+                    <a href="">解决方案</a>
+                    <div class="menu p-absolute">
+                        <ul>
+                            <li><a href="">手机管车</a></li>
+                            <li><a href="">手机管车</a></li>
+                            <li><a href="">手机管车</a></li>
+                            <li><a href="">手机管车</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="pull-left"><a href="">服务</a></li>
+                <li class="pull-left"><a href="">关于G7</a></li>
+            </ul>
+        </nav>
+        <!--nav end-->
+
+        <!--toggle start-->
+        <button class="toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </button>
+        <!--toggle end-->
+    </div>
+</header>
+<!--头部结束-->
+
+<!--banner start-->
+<section class="banner p-relative">
+    <!--轮播项目开始-->
+    <div class="item p-absolute active">
+        <a href=""></a>
+    </div>
+    <div class="item p-absolute">
+        <a href=""></a>
+    </div>
+    <div class="item p-absolute">
+        <a href=""></a>
+    </div>
+    <!--轮播项目结束-->
+
+    <div class="width p-relative">
+        <!--轮播图的控制按钮开始-->
+        <button class="left p-absolute"></button>
+        <button class="right p-absolute"></button>
+        <!--轮播图的控制按钮结束-->
+
+        <!--tool start-->
+        <div class="tool p-absolute">
+            <div class="inline-block p-relative">
+                <a href=""></a>
+                <div class="p-absolute" >
+                    <img src="img/weChat.jpg" alt="">
+                </div>
+            </div>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <!--tool end-->
+    </div>
+</section>
+<!--banner end-->
+
+<!--service start-->
+<section class="service">
+    <div class="width clearfix">
+        <h2 class="title">产品及服务</h2>
+        <figure class="pull-left">
+            <a href=""><img src="img/service1.jpg" alt=""></a>
+            <figcaption>
+                <h3>G7-007智能化车队</h3>
+                <p>
+                    借助智能物联技术,基于国际助智能物联技术,基于国际助智能物联技术,基于国际领先的Argus智能算法，帮助车队施行智能化时效、安全、成本的管理。G7-007运营管理系统，旨在将全业务流程管理从人工操作逐渐转变为自动化运营，通过在途异常实时报警，智能取证判责等功能帮助车队管理实现降本增效；G7-007安全管理系统，旨在强化多维度、全流程的车队安全管理，通过在途实时风险预警，人工双重干预，智能安全分析报告等功能全面降低事故率。</p>
+                <a href="">查看更多</a>
+            </figcaption>
+        </figure>
+        <figure class="pull-left">
+            <a href=""><img src="img/service2.jpg" alt=""></a>
+            <figcaption>
+                <h3>G7-007智能化车队</h3>
+                <p>
+                    G7-007运营管理系统，旨在将全业务流程管理从人工操作逐渐转变为自动化运营，通过在途异常实时报警，智能取证判责等功能帮助车队管理实现降本增效；G7-007安全管理系统，旨在强化多维度、全流程的车队安全管理，通过在途实时风险预警，人工双重干预，智能安全分析报告等功能全面降低事故率。</p>
+                <a href="">查看更多</a>
+            </figcaption>
+        </figure>
+        <figure class="pull-left">
+            <a href=""><img src="img/service3.jpg" alt=""></a>
+            <figcaption>
+                <h3>G7-007智能化车队</h3>
+                <p>
+                    借助智变为自动化运营，通过在途异常实时报警，智能取证判责等功能帮助车队管理实现降本增效；G7-007安全管理系统，旨在强化多维度、全流程的车队安全管理，通过在途实时风险预警，人工双重干预，智能安全分析报告等功能全面降低事故率。</p>
+                <a href="">查看更多</a>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+<!--service end-->
+
+<!--customer start-->
+<section class="customer">
+    <div class="width">
+        <h2 class="title">我们的客户</h2>
+        <div class="clearfix">
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+            <a href=""><img src="img/customer1.png" alt=""></a>
+        </div>
+        <!--div#box>a*36>img[src="$.jpg"]-->
+    </div>
+</section>
+<!--customer end-->
+
+<!--footer start-->
+<footer class="footer">
+    <div class="width">
+        <!--top start-->
+        <div class="top clearfix">
+            <!--link start-->
+            <ul class="link clearfix pull-left">
+                <li>
+                    <!--<dl>
+                        <dt><a href=""></a></dt>
+                        <dd><a href=""></a></dd>
+                        <dd><a href=""></a></dd>
+                        <dd><a href=""></a></dd>
+                        <dd><a href=""></a></dd>
+                    </dl>-->
+                    <h4><a href="">关于G7</a></h4>
+                    <a href="">公司简介</a>
+                    <a href="">媒体报道</a>
+                    <a href="">加入G7</a>
+                    <a href="">联系我们</a>
+                </li>
+                <li>
+                    <h4><a href="">产品</a></h4>
+                    <a href="">G7-007智能化车队</a>
+                    <a href="">手机管车</a>
+                    <a href="">数字运力</a>
+                    <a href="">增值服务</a>
+                </li>
+                <li>
+                    <h4><a href="">解决方案</a></h4>
+                    <a href="">快递快运</a>
+                    <a href="">冷链运输</a>
+                    <a href="">货主运输</a>
+                    <a href="">危险品运输</a>
+                </li>
+                <li>
+                    <h4><a href="">联系我们</a></h4>
+                    <a href="">服务</a>
+                    <a href="">4006115656</a>
+                    <a href="">网站地图</a>
+                </li>
+            </ul>
+            <!--link end-->
+
+            <!--box start-->
+            <div class="box pull-right">
+                <div class="text-right">
+                    <a href="">预约体验</a>
+                    <a href="">English</a>
+                    <a href="">中文</a>
+                </div>
+                <div class="clearfix text-center">
+                    <figure class="pull-left">
+                        <img src="img/weChat1.jpg" alt="">
+                        <figcaption>
+                            <h4>G7官方</h4>
+                        </figcaption>
+                    </figure>
+                    <figure class="pull-left">
+                        <img src="img/weChat2.jpg" alt="">
+                        <figcaption>
+                            <h4>G7手机管车</h4>
+                        </figcaption>
+                    </figure>
+                    <figure class="pull-left">
+                        <img src="img/weChat3.png" alt="">
+                        <figcaption>
+                            <h4>G7运力招标</h4>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!--box end-->
+        </div>
+        <!--top end-->
+
+        <div>Copyright &copy; 2018 www.g7.com.cn All Rights Reserved 京公网安备11010802017215号 京ICP证130233号</div>
+        <!--&lt; &gt; &copy; &reg; &times;-->
+    </div>
+</footer>
+<!--footer end-->
+
+</body>
+</html>
